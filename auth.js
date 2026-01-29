@@ -1,7 +1,6 @@
 (async function() {
     // --- CONFIGURATION ---
     const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwKuWblAMg8dqrE4aWM02zrEfZGbuBg4vjyM6u9FPiedFXfFh_5xBMEvOsLwtyJT_Ry/exec';
-    const REQUIRED_LEVEL = 1; // Added this back so the script doesn't break
 
     // 1. Inject CSS with corrected positioning
     const style = document.createElement('style');
@@ -91,3 +90,4 @@
         }
     }
 })();
+
