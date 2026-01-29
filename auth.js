@@ -72,10 +72,11 @@
             document.getElementById('gk-loader').classList.add('gk-hidden');
             document.getElementById('gk-denied').classList.remove('gk-hidden');
             if(data.status !== "found") {
-                document.getElementById('gk-reason').innerText = "IP not found in secure database.";
+                document.getElementById('gk-reason').innerText = "IP not found in secure database. If you are in 6C talk to Jaxson if your in 6S talk to Jace";
             }
         }
     } catch (err) {
         document.getElementById('gk-loader').innerHTML = "<h1 class='gk-error'>System Error</h1><p>Check connection.</p>";
     }
+
 })();
